@@ -1,10 +1,8 @@
-'use strict';
+"use strict";
 
 function getElementWidth(content, padding, border) {
   const totalWidth =
-    toNumber(content) +
-    (toNumber(padding) * 2) +
-    (toNumber(border) * 2);
+    toNumber(content) + toNumber(padding) * 2 + toNumber(border) * 2;
 
   return totalWidth;
 }
