@@ -1,4 +1,5 @@
 "use strict";
+console.log(""); //space for ungrouping tasks in the console.
 
 function getElementWidth(content, padding, border) {
   const totalWidth =
